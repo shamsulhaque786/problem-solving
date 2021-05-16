@@ -7,8 +7,8 @@ import java.util.Stack;
 public class CountParenthesis {
 
     public static void main(String... a) {
-        System.out.println(new CountParenthesis().tryCatchCheck());
-       // System.out.println(new CountParenthesis().countParentheses(""));
+//        System.out.println(new CountParenthesis().tryCatchCheck());
+        System.out.println(new CountParenthesis().countParentheses(""));
     }
 
     public int countParentheses(String input) {
